@@ -67,7 +67,33 @@ You'll see three options:
 1. Upload both files using the separate drop zones
 2. Files with "compat" in the name are auto-detected as compatibility files
 
-#### Step 3: Configure Processing Options
+**Loading a Draft:**
+1. Click "Load Draft" button above the upload area
+2. Select from your saved drafts
+3. Files are automatically restored and ready to use
+
+#### Step 3: Preview Your Listings (NEW!)
+
+After uploading files, you'll see a "Preview Listings" button. This allows you to:
+
+1. **Review Before Creating**: See exactly how your listings will appear
+2. **Check for Errors**: Validation shows missing data or issues
+3. **Verify Images**: Preview shows if images are loading correctly
+4. **Save as Draft**: Save your work to continue later
+
+**Preview Features:**
+- **Summary Stats**: Total listings, valid count, error count
+- **Paginated View**: Browse through listings 10 at a time
+- **Detailed View**: Click "View Details" to see full listing info
+- **Error Badges**: Red indicators show validation issues
+- **Image Preview**: First 3 images displayed with fallbacks
+
+**To Save as Draft:**
+1. Click "Save as Draft" in the preview screen
+2. Enter a descriptive name (e.g., "BMW January Batch")
+3. Your files are saved and can be loaded anytime
+
+#### Step 4: Configure Processing Options
 1. **Select Store**: Choose which eBay store to use
 2. **Processing Mode**:
    - **Verify Only (Dry Run)** - Test without creating listings (RECOMMENDED for first time)
@@ -75,15 +101,17 @@ You'll see three options:
 3. **Batch Size**: How many listings to process at once (default: 50)
 4. **Start Row**: Which row to start from (useful for resuming)
 
-#### Step 4: Process
+#### Step 5: Process
 1. Click "Verify" to test or "Create Listings" to proceed
 2. Monitor progress in real-time
 3. Check the summary for any errors
 
 ### Important Notes
 - Always use "Verify Only" first to check for errors
+- Use the Preview feature to catch issues before processing
+- Save important uploads as drafts to avoid re-uploading
 - Created listings go live on eBay immediately
-- There's no built-in way to delete listings - use eBay Seller Hub
+- To delete listings, use the "Manage Listings" tab
 
 ---
 
@@ -237,10 +265,12 @@ F5 - Black with Grey Trim
 ## Tips & Best Practices
 
 ### Before Creating Listings
-1. **Always verify first** - Use dry run mode
-2. **Start small** - Test with 1-2 listings
-3. **Check your template** - Ensure all required fields have data
-4. **Backup your files** - Keep original Excel files
+1. **Always preview first** - Use the Preview feature to check listings
+2. **Always verify second** - Use dry run mode before live creation
+3. **Start small** - Test with 1-2 listings
+4. **Check your template** - Ensure all required fields have data
+5. **Save as draft** - Keep a copy of tested configurations
+6. **Backup your files** - Keep original Excel files
 
 ### File Preparation
 1. **Use consistent SKUs** - Makes searching easier
@@ -265,9 +295,11 @@ F5 - Black with Grey Trim
 ### Safety Tips
 1. **Never share login credentials**
 2. **Log out when finished**
-3. **Verify mode is your friend** - Use it liberally
-4. **Double-check before deleting** - Deletions cannot be undone
-5. **Keep records** - Save processing logs and reports
+3. **Preview is your best friend** - Always preview before processing
+4. **Verify mode is your second friend** - Use it liberally
+5. **Save drafts regularly** - Preserve your work and tested configurations
+6. **Double-check before deleting** - Deletions cannot be undone
+7. **Keep records** - Save processing logs and reports
 
 ### When Things Go Wrong
 1. **Don't panic** - Most issues are fixable
@@ -301,6 +333,13 @@ SKU    |
 - **Compatibility Only** - Just Ktype data  
 - **Both Files** - Complete listing with compatibility
 
+### Processing Flow
+1. **Upload** - Choose mode and upload files
+2. **Preview** - Check listings for errors and images
+3. **Save Draft** (optional) - Save configuration for later
+4. **Verify** - Test run without creating listings
+5. **Create** - Live mode, creates real listings
+
 ### Processing Modes
 - **Verify Only** - Test run, no listings created
 - **Create Listings** - Live mode, creates real listings
@@ -320,3 +359,4 @@ Remember: It's always better to ask before making changes you're unsure about, e
 ---
 
 *Last updated: January 2025*
+*Version 2.0 - Added Preview and Draft functionality*
